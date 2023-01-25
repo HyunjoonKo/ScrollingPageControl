@@ -74,6 +74,7 @@ open class ScrollingPageControl: UIView {
 	}
 	//	The duration, in seconds, of the dot slide animation
 	open var slideDuration: TimeInterval = 0.15
+    open var scaleSize: [CGFloat] = [1, 0.66, 0.33, 0.16]
 	private var centerOffset = 0
 	private var pageOffset = 0 {
 		didSet {
@@ -150,7 +151,7 @@ open class ScrollingPageControl: UIView {
 			let scale: CGFloat = {
 				let distance = abs(page - centerPage)
 				if distance > (maxDots / 2) { return 0 }
-				return [1, 0.66, 0.33, 0.16][max(0, min(3, distance - centerDots / 2))]
+                return self.scaleSize[max(0, min(3, distance - centerDots / 2))]
 			}()
 			dot.frame = CGRect(origin: .zero, size: CGSize(width: dotSize * scale, height: dotSize * scale))
 			dot.center = center
