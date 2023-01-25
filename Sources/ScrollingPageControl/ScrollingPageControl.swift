@@ -74,11 +74,16 @@ open class ScrollingPageControl: UIView {
 	}
 	//	The duration, in seconds, of the dot slide animation
 	open var slideDuration: TimeInterval = 0.15
+    //  Specifies the scale at which the dot is reduced.
     open var scaleSize: [CGFloat] = [1, 0.66, 0.33, 0.16]
+    //  Determines whether to animate the dot when scrolling.
+    open var isEnabledAnimation: Bool = true
 	private var centerOffset = 0
 	private var pageOffset = 0 {
 		didSet {
-			UIView.animate(withDuration: slideDuration, delay: 0.15, options: [], animations: self.updatePositions, completion: nil)
+            if self.isEnabledAnimation {
+                UIView.animate(withDuration: slideDuration, delay: 0.15, options: [], animations: self.updatePositions, completion: nil)
+            }
 		}
 	}
 	
