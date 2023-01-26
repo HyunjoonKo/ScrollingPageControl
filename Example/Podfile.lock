@@ -2,15 +2,21 @@ PODS:
   - ScrollingPageControl (1.0.0)
 
 DEPENDENCIES:
-  - ScrollingPageControl (from `../`)
+  - ScrollingPageControl (from `https://github.com/HyunjoonKo/ScrollingPageControl.git`, branch `customized`)
 
 EXTERNAL SOURCES:
   ScrollingPageControl:
-    :path: "../"
+    :branch: customized
+    :git: https://github.com/HyunjoonKo/ScrollingPageControl.git
+
+CHECKOUT OPTIONS:
+  ScrollingPageControl:
+    :commit: cadc724e9a3bb8521d9f77db3be352851e8c2e94
+    :git: https://github.com/HyunjoonKo/ScrollingPageControl.git
 
 SPEC CHECKSUMS:
   ScrollingPageControl: 9433cc140ed0928bc8a45e29cd79558163193a0b
 
-PODFILE CHECKSUM: 4a14006f3ae58dc8b4e6f5a708c3d7f306f9c2e0
+PODFILE CHECKSUM: 2771acc2320a4d7e2ad6b09e693d0e37e9fbd440
 
 COCOAPODS: 1.11.3

@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ScrollingPageControl_Example' do
-  pod 'ScrollingPageControl', :path => '../'
+  pod 'ScrollingPageControl', :git => 'https://github.com/HyunjoonKo/ScrollingPageControl.git', :branch => 'customized'
 
   target 'ScrollingPageControl_Tests' do
     inherit! :search_paths

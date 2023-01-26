@@ -145,7 +145,7 @@ open class ScrollingPageControl: UIView {
 		}
 	}
 	
-	internal func updatePositions() {
+    open func updatePositions() {
 		let centerDots = min(self.centerDots, pages)
 		let maxDots = min(self.maxDots, pages)
 		let sidePages = (maxDots - centerDots) / 2

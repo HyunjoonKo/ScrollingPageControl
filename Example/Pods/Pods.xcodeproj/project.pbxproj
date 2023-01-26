@@ -10,26 +10,26 @@
 		00103DD9DF7699C7DC929323DDEDA91F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		1BBC4B9B998ABB8DA406F29AB6DBAD79 /* Pods-ScrollingPageControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD6D6A325C4E4C6551A95A5BE646222 /* Pods-ScrollingPageControl_Example-dummy.m */; };
 		249C51AEBB7FC776BEA551C0AF81A315 /* Pods-ScrollingPageControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C5AF2C22A0515333369146043D464 /* Pods-ScrollingPageControl_Tests-dummy.m */; };
-		25D8718A027F7478BC1E2267EE369AC9 /* ScrollingPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9331D24127CB84CA5218751BD2309 /* ScrollingPageControl-dummy.m */; };
+		25D8718A027F7478BC1E2267EE369AC9 /* ScrollingPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7121FFBE6CE15988C629DBB3FDE62E0B /* ScrollingPageControl-dummy.m */; };
 		39823C741856EEA6E36A1D966FE29660 /* Pods-ScrollingPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A145551DF78C1CC76B04FF6089C65E3 /* Pods-ScrollingPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		489C37550927007863F48E4F2A242C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		A6FE273AD89A988B678A3C21AC223AC9 /* Pods-ScrollingPageControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90000AC4BE0DD8EE981B0B93F7A100E4 /* Pods-ScrollingPageControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC12BF91F3ACB9FD97304DCE9C92AC19 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30858255245DA1C2CAD3DC5C435D4555 /* CircularView.swift */; };
+		CC12BF91F3ACB9FD97304DCE9C92AC19 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AD6C27A9E788C112AB18E9758D9891 /* CircularView.swift */; };
 		D07D9AB36625A04DD938C8BF91234810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		ECDEA89D9F4100B8C4D3AC10B2ECC4AD /* ScrollingPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15AE35180BB0FBF0C69B55C4662FC170 /* ScrollingPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED563AAE70FCD690259CC4BB7A9B6EFF /* ScrollingPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004AB719B756FABD9D91D41061F6122 /* ScrollingPageControl.swift */; };
+		ECDEA89D9F4100B8C4D3AC10B2ECC4AD /* ScrollingPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1585B02D564C7BC63367FBA2ED86B4AC /* ScrollingPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED563AAE70FCD690259CC4BB7A9B6EFF /* ScrollingPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989E4DD08E0FE4C67AA5F5D88D16FD3C /* ScrollingPageControl.swift */; };
 		F3ED4188928A82C0AA687B7678BCFB5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5EFA50E80E36E821E0F5BBF21370E94F /* PBXContainerItemProxy */ = {
+		4A54FF233E148A87773555E8C6EDF702 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D1A4A7CE621456B8B25FEEEF27FC983F;
 			remoteInfo = ScrollingPageControl;
 		};
-		E832608F03199E6FFF5C1C53FDD79F8B /* PBXContainerItemProxy */ = {
+		68ABF92D88F1126DAEAA272AC6D76A52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,12 +40,11 @@
 
 /* Begin PBXFileReference section */
 		094DCD78FF95C549DB117D527A1EB298 /* Pods-ScrollingPageControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Tests.modulemap"; sourceTree = "<group>"; };
-		0AB9331D24127CB84CA5218751BD2309 /* ScrollingPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollingPageControl-dummy.m"; sourceTree = "<group>"; };
-		15AE35180BB0FBF0C69B55C4662FC170 /* ScrollingPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-umbrella.h"; sourceTree = "<group>"; };
+		1585B02D564C7BC63367FBA2ED86B4AC /* ScrollingPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-umbrella.h"; sourceTree = "<group>"; };
 		1C901C93380D20EA88D27BF81D6882FE /* Pods-ScrollingPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		257CFC19D4FB26D07E58BA4572132083 /* Pods-ScrollingPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		30858255245DA1C2CAD3DC5C435D4555 /* CircularView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = Sources/ScrollingPageControl/CircularView.swift; sourceTree = "<group>"; };
 		35DA290A4E7C38ED2474B22C6349E5CE /* Pods-ScrollingPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39D6486A1CA723BE14D6986FC41D0469 /* ScrollingPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollingPageControl.modulemap; sourceTree = "<group>"; };
 		3B3511A353E5BAD1C3DC16FAB580F01D /* Pods-ScrollingPageControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollingPageControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E0C5AF2C22A0515333369146043D464 /* Pods-ScrollingPageControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		507D8BA4FF2C24DA6B22343C6D598595 /* Pods-ScrollingPageControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -53,27 +52,25 @@
 		5C3D3F8997A25C5CE6A234FF1B590DAF /* Pods-ScrollingPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollingPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5CDDD25A6E60A440873F3C5AD3CB0824 /* Pods-ScrollingPageControl_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScrollingPageControl_Example"; path = Pods_ScrollingPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B906526FC5C82C5E4F1E698408CB94 /* Pods-ScrollingPageControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		73E70C506FFE86CB30BC17E0D4BB0E7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7121FFBE6CE15988C629DBB3FDE62E0B /* ScrollingPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollingPageControl-dummy.m"; sourceTree = "<group>"; };
+		7AAEB5F755760A720D4764B796964469 /* ScrollingPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-prefix.pch"; sourceTree = "<group>"; };
 		7B652CDF0EE383423B23180487C12230 /* ScrollingPageControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollingPageControl; path = ScrollingPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		853B4932C3DB08C983F2FBAAB7534CED /* ScrollingPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.release.xcconfig; sourceTree = "<group>"; };
 		886E423E23C349DF0D2D1897C9301378 /* Pods-ScrollingPageControl_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScrollingPageControl_Tests"; path = Pods_ScrollingPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90000AC4BE0DD8EE981B0B93F7A100E4 /* Pods-ScrollingPageControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScrollingPageControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		90D8877096D2E6F16CD905CF4040AEA8 /* Pods-ScrollingPageControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Tests-Info.plist"; sourceTree = "<group>"; };
+		9105221A0E5150E4BA3335039BC16DA1 /* ScrollingPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollingPageControl-Info.plist"; sourceTree = "<group>"; };
 		969D16629E10774057240949610DFD5A /* Pods-ScrollingPageControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScrollingPageControl_Example.modulemap"; sourceTree = "<group>"; };
+		989E4DD08E0FE4C67AA5F5D88D16FD3C /* ScrollingPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = Sources/ScrollingPageControl/ScrollingPageControl.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AACE7769B13F67391B80F0E6C61560DC /* ScrollingPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollingPageControl-Info.plist"; sourceTree = "<group>"; };
-		AF868BDB2D4735C48E329561B6A6979A /* ScrollingPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScrollingPageControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0AD6C27A9E788C112AB18E9758D9891 /* CircularView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = Sources/ScrollingPageControl/CircularView.swift; sourceTree = "<group>"; };
 		B59A2448E3F9C97E07FDBE4A56C02A02 /* Pods-ScrollingPageControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollingPageControl_Example-Info.plist"; sourceTree = "<group>"; };
-		B866BDF726691C164D7F7078585938B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D004AB719B756FABD9D91D41061F6122 /* ScrollingPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingPageControl.swift; path = Sources/ScrollingPageControl/ScrollingPageControl.swift; sourceTree = "<group>"; };
+		B9B775B80B294E570CB7C557BCB23AAC /* ScrollingPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.release.xcconfig; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D9D6BFD0675D373098ADDAF0A1CAABDC /* ScrollingPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.debug.xcconfig; sourceTree = "<group>"; };
 		DFD6D6A325C4E4C6551A95A5BE646222 /* Pods-ScrollingPageControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollingPageControl_Example-dummy.m"; sourceTree = "<group>"; };
-		E2AD2DE96F5BD986479D6BF5D9F8DC59 /* ScrollingPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollingPageControl-prefix.pch"; sourceTree = "<group>"; };
 		E9D9FFD76ED01A06BD827FD79194CA98 /* Pods-ScrollingPageControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollingPageControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC7FCA14B7E97678966BD4C6452FE43A /* ScrollingPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollingPageControl.modulemap; sourceTree = "<group>"; };
 		F0A2759DB28F795E97D9EA8FD336C28B /* Pods-ScrollingPageControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollingPageControl_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F548C1F9EB098FE51AF9B1CE8F2FB14A /* ScrollingPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollingPageControl.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,19 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DD0238D984013057A728F436CA6E576 /* Support Files */ = {
+		1109AC9CAD6A7BB5DFA810C9DEAFC3FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC7FCA14B7E97678966BD4C6452FE43A /* ScrollingPageControl.modulemap */,
-				0AB9331D24127CB84CA5218751BD2309 /* ScrollingPageControl-dummy.m */,
-				AACE7769B13F67391B80F0E6C61560DC /* ScrollingPageControl-Info.plist */,
-				E2AD2DE96F5BD986479D6BF5D9F8DC59 /* ScrollingPageControl-prefix.pch */,
-				15AE35180BB0FBF0C69B55C4662FC170 /* ScrollingPageControl-umbrella.h */,
-				D9D6BFD0675D373098ADDAF0A1CAABDC /* ScrollingPageControl.debug.xcconfig */,
-				853B4932C3DB08C983F2FBAAB7534CED /* ScrollingPageControl.release.xcconfig */,
+				39D6486A1CA723BE14D6986FC41D0469 /* ScrollingPageControl.modulemap */,
+				7121FFBE6CE15988C629DBB3FDE62E0B /* ScrollingPageControl-dummy.m */,
+				9105221A0E5150E4BA3335039BC16DA1 /* ScrollingPageControl-Info.plist */,
+				7AAEB5F755760A720D4764B796964469 /* ScrollingPageControl-prefix.pch */,
+				1585B02D564C7BC63367FBA2ED86B4AC /* ScrollingPageControl-umbrella.h */,
+				F548C1F9EB098FE51AF9B1CE8F2FB14A /* ScrollingPageControl.debug.xcconfig */,
+				B9B775B80B294E570CB7C557BCB23AAC /* ScrollingPageControl.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ScrollingPageControl";
+			path = "../Target Support Files/ScrollingPageControl";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -163,22 +160,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6AE440AEA3B589D104D3173D799E33FF /* Pod */ = {
+		6DBA7B58A9844C23F2FDA8DDD9937E07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73E70C506FFE86CB30BC17E0D4BB0E7B /* LICENSE */,
-				B866BDF726691C164D7F7078585938B5 /* README.md */,
-				AF868BDB2D4735C48E329561B6A6979A /* ScrollingPageControl.podspec */,
+				8A36D9D9566C247817ED395A9E82409F /* ScrollingPageControl */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6D8CCC22842E244ED4AFFBDB1BDD9088 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5B3C79D0A34A59E81F0B0492D91316F /* ScrollingPageControl */,
-			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		80E232DD53F9790EAF50A27EC9B20298 /* Products */ = {
@@ -191,24 +178,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5B3C79D0A34A59E81F0B0492D91316F /* ScrollingPageControl */ = {
+		8A36D9D9566C247817ED395A9E82409F /* ScrollingPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				30858255245DA1C2CAD3DC5C435D4555 /* CircularView.swift */,
-				D004AB719B756FABD9D91D41061F6122 /* ScrollingPageControl.swift */,
-				6AE440AEA3B589D104D3173D799E33FF /* Pod */,
-				0DD0238D984013057A728F436CA6E576 /* Support Files */,
+				B0AD6C27A9E788C112AB18E9758D9891 /* CircularView.swift */,
+				989E4DD08E0FE4C67AA5F5D88D16FD3C /* ScrollingPageControl.swift */,
+				1109AC9CAD6A7BB5DFA810C9DEAFC3FE /* Support Files */,
 			);
 			name = ScrollingPageControl;
-			path = ../..;
+			path = ScrollingPageControl;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6D8CCC22842E244ED4AFFBDB1BDD9088 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6DBA7B58A9844C23F2FDA8DDD9937E07 /* Pods */,
 				80E232DD53F9790EAF50A27EC9B20298 /* Products */,
 				68D819B1B0CC39732AD6BAA2B13216DB /* Targets Support Files */,
 			);
@@ -272,7 +258,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D2C2B95EA7ECA4B5A84517AC9F09E1B4 /* PBXTargetDependency */,
+				426F227DA03D584006155D1FE2050244 /* PBXTargetDependency */,
 			);
 			name = "Pods-ScrollingPageControl_Tests";
 			productName = Pods_ScrollingPageControl_Tests;
@@ -309,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FA996622E19C2CD1C878BA21A209F2B7 /* PBXTargetDependency */,
+				4BC967773E4E1EAD0D219533836429DC /* PBXTargetDependency */,
 			);
 			name = "Pods-ScrollingPageControl_Example";
 			productName = Pods_ScrollingPageControl_Example;
@@ -322,8 +308,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -399,24 +385,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2C2B95EA7ECA4B5A84517AC9F09E1B4 /* PBXTargetDependency */ = {
+		426F227DA03D584006155D1FE2050244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ScrollingPageControl_Example";
 			target = E4F8E6188370B81AEA43C868FC7BA0C2 /* Pods-ScrollingPageControl_Example */;
-			targetProxy = E832608F03199E6FFF5C1C53FDD79F8B /* PBXContainerItemProxy */;
+			targetProxy = 68ABF92D88F1126DAEAA272AC6D76A52 /* PBXContainerItemProxy */;
 		};
-		FA996622E19C2CD1C878BA21A209F2B7 /* PBXTargetDependency */ = {
+		4BC967773E4E1EAD0D219533836429DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ScrollingPageControl;
 			target = D1A4A7CE621456B8B25FEEEF27FC983F /* ScrollingPageControl */;
-			targetProxy = 5EFA50E80E36E821E0F5BBF21370E94F /* PBXContainerItemProxy */;
+			targetProxy = 4A54FF233E148A87773555E8C6EDF702 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		09618EEBCD1FEA09E1F83D94F393FA62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 853B4932C3DB08C983F2FBAAB7534CED /* ScrollingPageControl.release.xcconfig */;
+			baseConfigurationReference = B9B775B80B294E570CB7C557BCB23AAC /* ScrollingPageControl.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -715,7 +701,7 @@
 		};
 		EA227E12E4B648F09B8C3C753D5ACC1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9D6BFD0675D373098ADDAF0A1CAABDC /* ScrollingPageControl.debug.xcconfig */;
+			baseConfigurationReference = F548C1F9EB098FE51AF9B1CE8F2FB14A /* ScrollingPageControl.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
